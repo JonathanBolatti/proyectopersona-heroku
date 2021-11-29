@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/background2.jpg);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar {
+    color: #fff;
+    height: 70px;
+    border-bottom: 0.1px solid cornflowerblue;
+}
+
+.nav-nav {
+    background: black;
+}
+
+.link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    /*font-weig => seria como el tipo de fuente light */
+    font-weight: 400;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contenedor {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    /*si los elementos se ven muy apretados, uno de ellos se baja*/
+    /* flex-wrap: wrap;  */
+}
+
+.contenedor-bienvenidos{
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button1 {
+    margin: 50px;
+    border: 2px solid cornflowerblue;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 0px cornflowerblue;
+    padding: 30px 70px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.button2 {
+    margin: 30px;
+    border: 2px solid cornflowerblue;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 0px cornflowerblue;
+    padding: 30px 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.comenzar{
+    margin: 25px;
+    border: 2px solid cornflowerblue;
+    border-radius: 6px;
+    box-shadow: 0px 0px 40px 0px cornflowerblue;
+    padding: 60px 120px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+ }
+
+.row-button:hover {
+    transition: 0.5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.tabla img {
+    background-image: url(../img/1.png);
+    width: 64px;
+    margin-bottom: 35px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.logo {
+    background: #fff;
+    background-image: url(../img/logo1.svg);
+    align-items: center;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 6px;
+}
+
+.navbar-brand {
+    margin: 75px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.col {
+    color: #fff;
+}
+
+.textos-listaspersonas {
+    color: white;
+}
+
+.row-filtro {
+    display: flex;
+}
+
+.form-control {
+    margin: 5px;
+}
+
+.btn-buscar {
+    margin: 5px 40px;
+    background: cornflowerblue;
+    border-radius: 6px;
+    border: solid 2px cornflowerblue;
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-weight: 700;
+}
+
+.acciones {
+    text-align: center;
+}
+
+.link-eliminar {
+    margin: 50px;
+}
+
+.textos-crearpersona {
+    color: white;
+}
+.texto-bienvenida{
+	font-size: 40px;
+	text-align: center; 
+}
+
+.caja-texto {
+    display: flex;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px 40px;
+    margin-left: 0px;
+}
+
+.msj-error {
+    color: red;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 0px 0px 30px;
+}
+
+.msj-error-ciudad{
+    color: red;
+    font-size: 14px;
+    font-weight: 400;
+    /* margin: 0px 0px 0px 15px; */
+
+}
+
+.conteiner_form {
+    margin: 20px 100px;
+}
+
+.btn-3 {
+    margin: 0px;
+    border-radius: 6px;
+    border: solid 2px;
+    background: none;
+    border: solid 2px cornflowerblue;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+
+}
+
+.btn-4 {
+    margin: 100px;
+    border-radius: 6px;
+    border: solid 2px;
+    background: none;
+    border: solid 2px cornflowerblue;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+
+}
+
+.card {
+    margin: 0px;
+    padding: 0%;
+    width: 20%;
+    height: 6%;
+}
+
+.imagen-crear-persona {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    padding: 0%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    right: 200px;
+    top: 5%;
+}
+
+.imagen-lista-persona {
+    display: flex;
+    margin: 20px 15px;
+    justify-content: space-between;
+    padding: 0%;
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    right: 15px;
+    top: 25%;
+}
+
+.boton-lista-personas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+    
+}
+
+.imagen-lista-ciudades{
+    display: flex;
+    margin: 20px 20px;
+    justify-content: space-between;
+    padding: 1%;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    right: 100px;
+    top: 15%; 
+}
+
+.imagen-lista-usuarios{
+    display: flex;
+    margin: 20px 20px;
+    justify-content: space-between;
+    padding: 2%;
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    right: 25px;
+    top: 12%; 
+}
+
+.imagen-registrar-persona{
+    display: flex;
+    margin: 40px 20px;
+    justify-content: space-between;
+    padding: 1%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    right: 150px;
+    top: 15%; 
+}
+.imagen-login-usuario{
+    display: flex;
+    margin: 40px 20px;
+    justify-content: space-between;
+    padding: 1%;
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    right: 150px;
+    top: 10%;   
+}
+
+.boton-enviar {
+    border-radius: 6px;
+    padding: 10px 73px;
+    height: 50px;
+    background: none;
+    color: white;
+    border: solid 2px cornflowerblue;
+
+}
+
+
+.ventana-success {
+    margin-top: 80px;
+    border-radius: 6px;
+    border: solid 2px;
+    background: none;
+    border: solid 2px cornflowerblue;
+    color: rgb(8, 141, 8);
+    text-decoration: none;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.ventana-logout{
+   
+    border-radius: 6px;
+    border: solid 2px;
+    background: none;
+    border: solid 2px cornflowerblue;
+    color: rgb(8, 141, 8);
+    width: 300px;
+    margin: 20px;
+    margin-left: 100px;
+    padding: 10px 30px; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+/* Footer */
+
+footer {
+    padding: 0px 0 50px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.content-foo h4 {
+    color: #fff;
+    border-bottom: 1px solid cornflowerblue;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    color: #ccc;
+    text-align: center;
+  }

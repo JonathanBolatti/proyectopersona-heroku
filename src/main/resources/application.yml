@@ -1,0 +1,26 @@
+
+Extensión YML:
+
+spring:
+ #Configuración MySQL
+  datasource: 
+    #url: jdbc:mysql://localhost:3306/persona2?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT&characterEncoding=UTF-8
+    #username: root
+    #password: root
+    #jonathanBolatti
+    url: jdbc:mysql://yjo6uubt3u5c16az.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/irw6akgdre2lekmb?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT&characterEncoding=UTF-8
+    username: a44pm0cygq1luloj
+    password: x6xn99edrcj9aygp
+    driver-class-name: com.mysql.cj.jdbc.Driver 
+#Configuración Creación de tablas (Hibernate)
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect      
+#Que thymeleaf no guarde datos en cache
+  thymeleaf:
+    cache: false 
+

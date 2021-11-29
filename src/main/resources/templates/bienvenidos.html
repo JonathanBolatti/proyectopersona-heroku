@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es-AR" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="/fragments/head :: head">
+	<link rel="shortcut icon" href="../static/img/aaip.svg" type="image/x-icon">
+</head>
+
+<body>
+	<header class="hero">
+		</nav>
+		<main>
+			<div class="row m-1">
+				<div class="col">
+					<div class="display-1 text-center m-5">Bienvenido</div>
+					<h2 class="texto-bienvenida" th:if="${session.usuariosession != null}" th:text="${session.usuariosession.nombre +' '+ session.usuariosession.apellido}"></h2>
+				</div>
+			</div>
+	</header>
+			<div class="contenedor-bienvenidos">
+			<div class="row-button">
+				<a th:href="@{/}" class="comenzar">Comenzar</a>
+			</div>
+		</div>
+		</main>
+	<footer th:replace="/fragments/footer :: nav-bar-ligth"></footer>
+
+</body>
+
+</html>
