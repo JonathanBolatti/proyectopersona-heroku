@@ -8,6 +8,7 @@ spring:
     #username: root
     #password: root
     #jonathanBolatti
+    
     url: jdbc:mysql://yjo6uubt3u5c16az.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/irw6akgdre2lekmb?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT&characterEncoding=UTF-8
     username: a44pm0cygq1luloj
     password: x6xn99edrcj9aygp
